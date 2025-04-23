@@ -1,40 +1,28 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Request for Recycling Help</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Help</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Request for Recycling Help</h1>
-    </header>
-
-    <section class="help-form">
-        <form action="./index.html" method="post">
-            <label for="full_name">Full Name</label>
-            <input type="text" id="full_name" name="full_name" required>
-
-            <label for="email">gmail</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="city">city</label>
-            <input type="text" id="city" name="city" required>
-
-            <label for="device_type">Device Type:</label>
-            <input type="text" id="device_type" name="device_type" required>
-
-            <label for="details">Details:</label>
-            <textarea id="details" name="details"></textarea>
-
-            <button type="submit">send</button>
-        </form>
-    </section>
-    <script>
-        function gotopage2(){
-            window.location.herf="index.html";
-        }
-    </script>
+  <header><h1>Request Recycling Help</h1></header>
+  <section class="help-form">
+    <form action="thank_you.html" method="post">
+      <label for="full_name">Full Name</label>
+      <input type="text" id="full_name" name="full_name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" required>
+      <label for="device_type">Device Type</label>
+      <input type="text" id="device_type" name="device_type" required>
+      <label for="details">Additional Details</label>
+      <textarea id="details" name="details"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <button onclick="window.location.href='./store.html'">Go to Store</button>
+  </section>
 </body>
 </html>
