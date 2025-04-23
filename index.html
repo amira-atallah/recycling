@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electronics Recycling</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Electronics Recycling</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="./login.html" onclick="goToPage('login.html')">log in</a>
+          </li>
+          <li>
+            <a href="./recycling_examples.html" onclick="goToPage('recycling_examples.html')"
+              >Recycling examples</a
+            >
+          </li>
+          <li>
+            <a href="./request_help.html" onclick="goToPage('request_help.html')">Request help</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <p>
+        Welcome to the electronics recycling project. Our goal is to help
+        recycle electronic devices safely and environmentally friendly.
+      </p>
+    </section>
+
+    <script>
+      function goToPage(login) {
+        window.location.href = login;
+      }
+    </script>
+  </body>
+</html> 
+
